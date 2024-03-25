@@ -46,26 +46,26 @@ int main()
     } while (pilihan != 5);
     switch (pilihan)
     {    
-     case 1;
+    case 1:
          input();
          cout << "Hasil penjumlahan = " << penjumlahan(bilSatu, bilDua) << endl;
          break;
-     case 2;
+    case 2:
          input();
          cout << "Hasil pembagian = " << penjumlahan(bilSatu, bilDua) << endl;
          break;
-     case 3;
+    case 3:
          input();
          cout << "Hasil perkalian = " << penjumlahan(bilSatu, bilDua) << endl;
          break;
-     case 4;
+    case 4:
          input();
          cout << "Hasil pengurangan = " << penjumlahan(bilSatu, bilDua) << endl;
          break;
-     case 5;
+    case 5:
          break;
-     default;
-         cout << "Pilihan tidak ada" << end;
+    default:
+        cout << "Pilihan tidak ada" << endl;
 
     }
     
