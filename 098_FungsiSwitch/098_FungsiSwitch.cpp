@@ -12,7 +12,7 @@ void input()
     cin >> bilDua;
 }
 
-float penjumlahan(float a, float b)
+float penjumlahan(float a , float b)
 {
     return a + b;
 }
@@ -24,7 +24,7 @@ float perkalian(float a, float b)
 {
     return a + b;
 }
-float perkalian(float a, float b)
+float pengurangan(float a, float b)
 {
     return a + b;
 }
@@ -69,11 +69,5 @@ int main()
 
     }
     
-}
-
-
-int main()
-{
-    std::cout << "Hello World!\n";
 }
 
