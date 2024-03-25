@@ -43,7 +43,7 @@ int main()
         cout << "5. EXIT " << endl;
         cout << "Masukkan pilihan 1/2/3/4/5 :";
         cin >> pilihan;         
-    }
+    } while (pilihan != 5);
     switch (pilihan)
     {    
      case 1;
